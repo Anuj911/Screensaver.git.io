@@ -1,0 +1,1412 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    background-color: black;
+    height: 100%;
+    overflow: hidden;
+}
+ 
+.sub-bubble{
+    width: 7px;
+    height: 23px;
+    background-color: white;
+    border-radius: 92%;
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    transform: rotate(50deg);
+}
+ 
+     
+.bubble1{
+    position: absolute;
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: rgba(130, 238, 175, 0.685) 2px solid;
+    animation: bubble 10s linear infinite;
+}
+.bubble2{
+    position: absolute;
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: rgba(130, 234, 238, 0.685) 2px solid;
+    animation: bubble2 10s linear infinite;
+}
+.sub-bubble1,.sub-bubble2,.sub-bubble3,.sub-bubble4,.sub-bubble5,.sub-bubble6,.sub-bubble7,.sub-bubble8,.sub-bubble9,.sub-bubble10,.sub-bubble11,.sub-bubble12,.sub-bubble13,.sub-bubble14,.sub-bubble15,.sub-bubble16,.sub-bubble17,.sub-bubble18,.sub-bubble19,.sub-bubble20,.sub-bubble21,.sub-bubble22,.sub-bubble23,.sub-bubble24,.sub-bubble25,.sub-bubble26,.sub-bubble27,.sub-bubble28,.sub-bubble29,.sub-bubble30,.sub-bubble31,.sub-bubble32,.sub-bubble33,.sub-bubble34,.sub-bubble35,.sub-bubble36,.sub-bubble37,.sub-bubble38 {
+    width: 7px;
+    height: 23px;
+    background-color: white;
+    border-radius: 92%;
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    transform: rotate(50deg);
+}
+@keyframes bubble{
+    0%,100%{
+        top: 0%;
+        left: 0%;
+    }
+    20%{
+       left: 90%;
+        
+    }
+    50%{
+        top: 16%;
+        left: 30%;
+         
+     }
+     70%{
+        top: 60%;
+        left: 80%;
+         
+     }
+     80%{
+        top: 96%;
+        left: 80%;
+         
+     }
+}
+@keyframes bubble2{
+    0%,100%{
+        top: 0%;
+        left: 0%;
+    }
+    20%{
+       left: 50%;
+       top: 4%;
+        
+    }
+    50%{
+        top: 76%;
+        left: 50%;
+         
+     }
+     70%{
+        top: 37%;
+        left: 23%;
+         
+     }
+     80%{
+        top: 66%;
+        left: 47%;
+         
+     }
+}
+.bubble3{
+    position: absolute;
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: rgba(74, 28, 241, 0.685) 2px solid;
+    animation: bubble3 10s linear infinite;
+}
+@keyframes bubble3{
+    0%,100%{
+        top: 0%;
+        left: 0%;
+    }
+    20%{
+       left: 0%;
+       top: 76%;
+        
+    }
+    50%{
+        top: 6%;
+        left: 70%;
+         
+     }
+     70%{
+        top: 70%;
+        left: 53%;
+         
+     }
+     80%{
+        top: 46%;
+        left: 17%;
+         
+     }
+}
+.bubble4{
+    position: absolute;
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: rgba(202, 241, 28, 0.685) 2px solid;
+    animation: bubble4 10s linear infinite;
+}
+@keyframes bubble4{
+    0%,100%{
+        top: 0%;
+        left: 0%;
+    }
+    20%{
+       left: 10%;
+       top: 6%;
+        
+    }
+    50%{
+        top: 46%;
+        left: 50%;
+         
+     }
+     70%{
+        top: 54%;
+        left: 68%;
+         
+     }
+     80%{
+        top: 2%;
+        left: 70%;
+         
+     }
+}
+.bubble5{
+    position: absolute;
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: rgba(241, 95, 28, 0.685) 2px solid;
+    animation: bubble5 10s linear infinite;
+}
+@keyframes bubble5{
+    0%,100%{
+        top: 0%;
+        left: 0%;
+    }
+    20%{
+       left: 10%;
+       top: 60%;
+        
+    }
+    50%{
+        top: 100px;
+        left: 70%;
+         
+     }
+     70%{
+        top: 500px;
+        left: 25px;
+         
+     }
+     80%{
+        top: 300px;
+        left: 74px;
+         
+     }
+}
+.bubble6{
+    position: absolute;
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: rgba(230, 12, 230, 0.685) 2px solid;
+    animation: bubble6 10s linear infinite;
+}
+@keyframes bubble6{
+    0%,100%{
+        top: 0%;
+        left: 0%;
+    }
+    20%{
+       left: 13%;
+       top: 16%;
+        
+    }
+    50%{
+        top: 39%;
+        left: 59%;
+         
+     }
+     70%{
+        top: 51%;
+        left: 66%;
+         
+     }
+     80%{
+        top: 20%;
+        left: 20%;
+         
+     }
+}
+.bubble7{
+    position: absolute;
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: rgba(83, 81, 83, 0.877) 2px solid;
+    animation: bubble7 10s linear infinite;
+}
+@keyframes bubble7{
+    0%,100%{
+        top: 0%;
+        left: 0%;
+    }
+    20%{
+       left: 73%;
+       top: 0%;
+        
+    }
+    50%{
+        top: 79%;
+        left: 9%;
+         
+     }
+     70%{
+        top:1%;
+        left: 56%;
+         
+     }
+     80%{
+        top: 30%;
+        left: 60%;
+         
+     }
+}
+.bubble8{
+    position: absolute;
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: rgba(247, 245, 247, 0.945) 2px solid;
+    animation: bubble8 10s linear infinite;
+}
+@keyframes bubble8{
+    0%,100%{
+        top: 0%;
+        left: 0%;
+    }
+    20%{
+       left: 3%;
+       top: 76%;
+        
+    }
+    50%{
+        top: 76%;
+        left: 76%;
+         
+     }
+     70%{
+        top: 0%;
+        left: 86%;
+         
+     }
+     80%{
+        top: 0%;
+        left: 20%;
+         
+     }
+}
+.bubble9{
+    position: absolute;
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: rgba(15, 151, 60, 0.945) 2px solid;
+    animation: bubble9 10s linear infinite;
+}
+@keyframes bubble9{
+    0%,100%{
+        top: 0%;
+        left: 0%;
+    }
+    20%{
+       left: 13%;
+       top: 76%;
+        
+    }
+    50%{
+        top: 6%;
+        left: 76%;
+         
+     }
+     70%{
+        top: 30%;
+        left: 86%;
+         
+     }
+     80%{
+        top: 80%;
+        left: 80%;
+         
+     }
+}
+.bubble10{
+    position: absolute;
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: rgba(8, 6, 99, 0.979) 2px solid;
+    animation: bubble10 10s linear infinite;
+}
+@keyframes bubble10{
+    0%,100%{
+        top: 0%;
+        left: 0%;
+    }
+    20%{
+       left: 19%;
+       top: 36%;
+        
+    }
+    50%{
+        top: 6%;
+        left: 82%;
+         
+     }
+     70%{
+        top: 29%;
+        left: 46%;
+         
+     }
+     80%{
+        top: 9%;
+        left: 36%;
+         
+     }
+}
+.bubble11{
+    position: absolute;
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: rgba(255, 15, 15, 0.945) 2px solid;
+    animation: bubble11 10s linear infinite;
+}
+@keyframes bubble11{
+    0%,100%{
+        top: 0%;
+        left: 0%;
+    }
+    20%{
+       left:83%;
+       top: 76%;
+        
+    }
+    50%{
+        top: 76%;
+        left: 56%;
+         
+     }
+     70%{
+        top: 1%;
+        left: 56%;
+         
+     }
+     80%{
+        top: 20%;
+        left: 60%;
+         
+     }
+}
+.bubble12{
+    position: absolute;
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: rgba(12, 231, 166, 0.945) 2px solid;
+    animation: bubble12 10s linear infinite;
+}
+@keyframes bubble12{
+    0%,100%{
+        bottom: 0%;
+        right: 0%;
+    }
+    20%{
+        bottom: 10%;
+        right: 40%;
+        
+    }
+    50%{
+        bottom: 50%;
+        right: 70%;
+         
+     }
+     70%{
+        bottom: 30%;
+        right:40%;
+         
+     }
+     80%{
+        bottom: 12%;
+        right: 16%;
+         
+     }
+}
+.bubble13{
+    position: absolute;
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: rgba(252, 235, 6, 0.945) 2px solid;
+    animation: bubble13 10s linear infinite;
+}
+@keyframes bubble13{
+    0%,100%{
+        bottom: 0%;
+        right: 0%;
+    }
+    20%{
+        bottom: 0%;
+        right: 40%;
+        
+    }
+    50%{
+        bottom: 76%;
+        right: 10%;
+         
+     }
+     70%{
+        bottom: 50%;
+        right:70%;
+         
+     }
+     80%{
+        bottom: 72%;
+        right: 56%;
+         
+     }
+}
+.bubble14{
+    position: absolute;
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: rgba(81, 42, 133, 0.945) 2px solid;
+    animation: bubble14 10s linear infinite;
+}
+@keyframes bubble14{
+    0%,100%{
+        bottom: 0%;
+        right: 0%;
+    }
+    20%{
+        bottom: 80%;
+        right: 0%;
+        
+    }
+    50%{
+        bottom: 42%;
+        right: 40%;
+         
+     }
+     70%{
+        bottom: 36%;
+        right:57%;
+         
+     }
+     80%{
+        bottom: 56%;
+        right: 69%;
+         
+     }
+}
+.bubble15{
+    position: absolute;
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: rgba(12, 107, 231, 0.945) 2px solid;
+    animation: bubble15 10s linear infinite;
+}
+@keyframes bubble15{
+    0%,100%{
+        bottom: 0%;
+        right: 0%;
+    }
+    20%{
+        bottom: 20%;
+        right: 50%;
+        
+    }
+    50%{
+        bottom: 0%;
+        right: 70%;
+         
+     }
+     70%{
+        bottom: 58%;
+        right:12%;
+         
+     }
+     80%{
+        bottom: 32%;
+        right: 53%;
+         
+     }
+}
+.bubble16{
+    position: absolute;
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: rgba(204, 54, 17, 0.945) 2px solid;
+    animation: bubble16 10s linear infinite;
+}
+@keyframes bubble16{
+    0%,100%{
+        bottom: 0%;
+        right: 0%;
+    }
+    20%{
+        bottom: 5%;
+        right: 90%;
+        
+    }
+    50%{
+        bottom: 80%;
+        right: 70%;
+         
+     }
+     70%{
+        bottom: 70%;
+        right:67%;
+         
+     }
+     80%{
+        bottom: 12%;
+        right: 36%;
+        
+     }
+}
+.bubble17{
+    position: absolute;
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: rgba(39, 7, 82, 0.945) 2px solid;
+    animation: bubble17 10s linear infinite;
+}
+@keyframes bubble17{
+    0%,100%{
+        bottom: 0%;
+        right: 0%;
+    }
+    20%{
+        bottom: 18%;
+        right: 18%;
+        
+    }
+    50%{
+        bottom: 56%;
+        right: 30%;
+         
+     }
+     65%{
+        bottom: 39%;
+        right:60%;
+         
+     }
+     80%{
+        bottom: 78%;
+        right: 26%;
+         
+     }
+}
+.bubble18{
+    position: absolute;
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: rgba(231, 129, 12, 0.582) 2px solid;
+    animation: bubble18 10s linear infinite;
+}
+@keyframes bubble18{
+    0%,100%{
+        bottom: 0%;
+        right: 0%;
+    }
+    20%{
+        bottom: 60%;
+        right: 44%;
+        
+    }
+    50%{
+        bottom: 70%;
+        right: 12%;
+         
+     }
+     65%{
+        bottom: 31%;
+        right: 74%;
+         
+     }
+     80%{
+        bottom: 12%;
+        right: 46%;
+         
+     }
+}
+.bubble19{
+    position: absolute;
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: rgb(92, 231, 12) 2px solid;
+    animation: bubble19 10s linear infinite;
+}
+@keyframes bubble19{
+    0%,100%{
+        top: 0%;
+        right: 0%;
+    }
+    20%{
+        top: 60%;
+        right: 44%;
+        
+    }
+    50%{
+        top: 70%;
+        right: 12%;
+         
+     }
+     65%{
+        top: 31%;
+        right: 74%;
+         
+     }
+     80%{
+        top: 12%;
+        right: 46%;
+         
+     }
+}
+.bubble19{
+    position: absolute;
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: rgb(92, 231, 12) 2px solid;
+    animation: bubble19 10s linear infinite;
+}
+@keyframes bubble19{
+    0%,100%{
+        top: 0%;
+        right: 0%;
+    }
+    20%{
+        top: 60%;
+        right: 44%;
+        
+    }
+    50%{
+        top: 70%;
+        right: 12%;
+         
+     }
+     65%{
+        top: 31%;
+        right: 74%;
+         
+     }
+     80%{
+        top: 12%;
+        right: 46%;
+         
+     }
+}
+.bubble19{
+    position: absolute;
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: rgb(92, 231, 12) 2px solid;
+    animation: bubble19 10s linear infinite;
+}
+@keyframes bubble19{
+    0%,100%{
+        top: 0%;
+        right: 0%;
+    }
+    20%{
+        top: 60%;
+        right: 44%;
+        
+    }
+    50%{
+        top: 70%;
+        right: 12%;
+         
+     }
+     65%{
+        top: 31%;
+        right: 74%;
+         
+     }
+     80%{
+        top: 12%;
+        right: 46%;
+         
+     }
+}
+.bubble20{
+    position: absolute;
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: rgb(102, 228, 211) 2px solid;
+    animation: bubble20 10s linear infinite;
+}
+@keyframes bubble20{
+    0%,100%{
+        top: 0%;
+        right: 0%;
+    }
+    20%{
+        top: 30%;
+        right: 44%;
+        
+    }
+    50%{
+        top: 60%;
+        right: 22%;
+         
+     }
+     65%{
+        top: 51%;
+        right: 54%;
+        
+     }
+     80%{
+        top: 72%;
+        right: 56%;
+         
+     }
+}
+.bubble21{
+    position: absolute;
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: rgb(92, 231, 12) 2px solid;
+    animation: bubble21 10s linear infinite;
+}
+@keyframes bubble21{
+    0%,100%{
+        top: 0%;
+        right: 0%;
+    }
+    20%{
+        top: 60%;
+        right: 44%;
+        
+    }
+    50%{
+        top: 70%;
+        right: 12%;
+         
+     }
+     65%{
+        top: 31%;
+        right: 74%;
+         
+     }
+     80%{
+        top: 12%;
+        right: 46%;
+         
+     }
+}
+.bubble22{
+    position: absolute;
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: rgb(92, 231, 12) 2px solid;
+    animation: bubble22 10s linear infinite;
+}
+@keyframes bubble22{
+    0%,100%{
+        top: 0%;
+        right: 0%;
+    }
+    20%{
+        top: 60%;
+        right: 44%;
+        
+    }
+    50%{
+        top: 70%;
+        right: 12%;
+         
+     }
+     65%{
+        top: 31%;
+        right: 74%;
+         
+     }
+     80%{
+        top: 12%;
+        right: 46%;
+         
+     }
+}
+.bubble23{
+    position: absolute;
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: rgb(231, 143, 12) 2px solid;
+    animation: bubble23 10s linear infinite;
+}
+@keyframes bubble23{
+    0%,100%{
+        top: 0%;
+        right: 0%;
+    }
+    20%{
+        top: 23%;
+        right: 26%;
+        
+    }
+    50%{
+        top: 64%;
+        right: 43%;
+         
+     }
+     65%{
+        top: 71%;
+        right: 84%;
+         
+     }
+     80%{
+        top: 76%;
+        right: 26%;
+         
+     }
+}
+.bubble24{
+    position: absolute;
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: rgb(231, 12, 140) 2px solid;
+    animation: bubble24 10s linear infinite;
+}
+@keyframes bubble24{
+    0%,100%{
+        top: 0%;
+        right: 0%;
+    }
+    20%{
+        top: 20%;
+        right: 4%;
+        
+    }
+    50%{
+        top: 20%;
+        right: 82%;
+         
+     }
+     65%{
+        top: 51%;
+        right: 73%;
+         
+     }
+     80%{
+        top: 62%;
+        right: 48%;
+         
+     }
+}
+.bubble25{
+    position: absolute;
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: rgb(205, 12, 231) 2px solid;
+    animation: bubble25 10s linear infinite;
+}
+@keyframes bubble25{
+    0%,100%{
+        top: 0%;
+        right: 0%;
+    }
+    20%{
+        top: 23%;
+        right: 17%;
+        
+    }
+    50%{
+        top: 18%;
+        right: 36%;
+         
+     }
+     65%{
+        top: 80%;
+        right: 36%;
+         
+     }
+     80%{
+        top: 5%;
+        right: 65%;
+         
+     }
+}
+.bubble26{
+    position: absolute;
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: rgb(12, 114, 231) 2px solid;
+    animation: bubble26 10s linear infinite;
+}
+@keyframes bubble26{
+    0%,100%{
+        top: 0%;
+        right: 0%;
+    }
+    20%{
+        top: 80%;
+        right: 72%;
+        
+    }
+    50%{
+        top: 37%;
+        right: 51%;
+         
+     }
+     65%{
+        top: 11%;
+        right: 28%;
+         
+     }
+     80%{
+        top: 78%;
+        right: 11%;
+         
+     }
+}
+.bubble27{
+    position: absolute;
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: rgb(209, 231, 12) 2px solid;
+    animation: bubble27 10s linear infinite;
+}
+@keyframes bubble27{
+    0%,100%{
+        top: 0%;
+        right: 0%;
+    }
+    20%{
+        top: 45%;
+        right: 74%;
+        
+    }
+    50%{
+        top: 80%;
+        right: 12%;
+         
+     }
+     65%{
+        top: 3%;
+        right: 4%;
+         
+     }
+     80%{
+        top: 22%;
+        right: 46%;
+         
+     }
+}
+.bubble28{
+    position: absolute;
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: rgb(126, 128, 113) 2px solid;
+    animation: bubble28 10s linear infinite;
+}
+@keyframes bubble28{
+    0%,100%{
+        bottom: 0%;
+        left: 0%;
+    }
+    20%{
+        bottom: 80%;
+        left: 0%;
+        
+    }
+    50%{
+        bottom: 0%;
+        left: 50%;
+     }
+     65%{
+        bottom: 70%;
+        left: 10%;
+         
+     }
+     80%{
+        bottom: 40%;
+        left: 70%;
+     }
+    }
+.bubble29{
+    position: absolute;
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: rgb(91, 104, 11) 2px solid;
+    animation: bubble29 10s linear infinite;
+}
+@keyframes bubble29{
+    0%,100%{
+        bottom: 0%;
+        left: 0%;
+    }
+    20%{
+        bottom: 20%;
+        left: 10%;
+        
+    }
+    50%{
+        bottom: 20%;
+        left: 40%;
+     }
+     65%{
+        bottom: 80%;
+        left: 50%;
+         
+     }
+     80%{
+        bottom: 33%;
+        left: 77%;
+     }
+    }
+.bubble30{
+    position: absolute;
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: rgb(208, 231, 57) 2px solid;
+    animation: bubble30 10s linear infinite;
+}
+@keyframes bubble30{
+    0%,100%{
+        bottom: 0%;
+        left: 0%;
+    }
+    20%{
+        bottom: 80%;
+        left: 0%;
+        
+    }
+    50%{
+        bottom: 0%;
+        left: 50%;
+     }
+     65%{
+        bottom: 70%;
+        left: 10%;
+         
+     }
+     80%{
+        bottom: 40%;
+        left: 70%;
+     }
+    }
+.bubble31{
+    position: absolute;
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: rgb(20, 201, 177) 2px solid;
+    animation: bubble31 10s linear infinite;
+}
+@keyframes bubble31{
+    0%,100%{
+        bottom: 0%;
+        left: 0%;
+    }
+    20%{
+        bottom: 80%;
+        left: 1%;
+        
+    }
+    50%{
+        bottom: 0%;
+        left: 50%;
+     }
+     65%{
+        bottom: 70%;
+        left: 18%;
+         
+     }
+     80%{
+        bottom: 40%;
+        left: 70%;
+     }
+    }
+.bubble32{
+    position: absolute;
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: rgb(10, 112, 32) 2px solid;
+    animation: bubble32 10s linear infinite;
+}
+@keyframes bubble32{
+    0%,100%{
+        bottom: 0%;
+        left: 0%;
+    }
+    20%{
+        bottom: 81%;
+        left: 60%;
+        
+    }
+    50%{
+        bottom: 23%;
+        left: 50%;
+     }
+     65%{
+        bottom: 70%;
+        left: 6%;
+         
+     }
+     80%{
+        bottom: 43%;
+        left: 70%;
+     }
+    }
+.bubble33{
+    position: absolute;
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: rgb(15, 28, 204) 2px solid;
+    animation: bubble33 10s linear infinite;
+}
+@keyframes bubble33{
+    0%,100%{
+        bottom: 0%;
+        left: 0%;
+    }
+    20%{
+        bottom: 10%;
+        left: 9%;
+        
+    }
+    50%{
+        bottom: 20%;
+        left: 59%;
+     }
+     65%{
+        bottom: 10%;
+        left: 11%;
+         
+     }
+     80%{
+        bottom: 58%;
+        left: 77%;
+     }
+    }
+.bubble34{
+    position: absolute;
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: rgb(124, 22, 8) 2px solid;
+    animation: bubble34 10s linear infinite;
+}
+@keyframes bubble34{
+    0%,100%{
+        bottom: 0%;
+        left: 0%;
+    }
+    20%{
+        bottom: 86%;
+        left: 7%;
+        
+    }
+    50%{
+        bottom: 71%;
+        left: 63%;
+     }
+     65%{
+        bottom: 54%;
+        left: 10%;
+         
+     }
+     80%{
+        bottom: 40%;
+        left: 10%;
+     }
+    }
+.bubble35{
+    position: absolute;
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: rgb(96, 204, 236) 2px solid;
+    animation: bubble35 10s linear infinite;
+}
+@keyframes bubble35{
+    0%,100%{
+        bottom: 0%;
+        left: 0%;
+    }
+    20%{
+        bottom: 60%;
+        left: 4%;
+        
+    }
+    50%{
+        bottom: 5%;
+        left: 50%;
+     }
+     65%{
+        bottom: 70%;
+        left: 31%;
+         
+     }
+     80%{
+        bottom: 66%;
+        left: 77%;
+     }
+    }
+.bubble36{
+    position: absolute;
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: rgba(182, 107, 8, 0.788) 2px solid;
+    animation: bubble36 10s linear infinite;
+}
+@keyframes bubble36{
+    0%,100%{
+        bottom: 0%;
+        left: 0%;
+    }
+    20%{
+        bottom: 66%;
+        left: 55%;
+        
+    }
+    50%{
+        bottom: 11%;
+        left: 22%;
+     }
+     65%{
+        bottom: 33%;
+        left: 44%;
+         
+     }
+     80%{
+        bottom: 43%;
+        left: 80%;
+     }
+    }
+.bubble37{
+    position: absolute;
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: rgb(97, 8, 53) 2px solid;
+    animation: bubble37 10s linear infinite;
+}
+@keyframes bubble37{
+    0%,100%{
+        bottom: 0%;
+        left: 0%;
+    }
+    20%{
+        bottom: 70%;
+        left: 70%;
+        
+    }
+    50%{
+        bottom: 40%;
+        left: 57%;
+     }
+     65%{
+        bottom: 70%;
+        left: 0%;
+         
+     }
+     80%{
+        bottom: 60%;
+        left: 13%;
+     }
+    }
+.bubble38{
+    position: absolute;
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: rgb(8, 136, 57) 2px solid;
+    animation: bubble38 10s linear infinite;
+}
+@keyframes bubble38{
+    0%,100%{
+        bottom: 0%;
+        left: 0%;
+    }
+    20%{
+        bottom: 40%;
+        left: 45%;
+        
+    }
+    50%{
+        bottom: 65%;
+        left: 60%;
+     }
+     65%{
+        bottom: 20%;
+        left: 14%;
+         
+     }
+     80%{
+        bottom: 10%;
+        left: 80%;
+     }
+    }
+ 
